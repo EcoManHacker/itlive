@@ -1,0 +1,269 @@
+/* fonts */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-1 {
+    width: 100%;
+    height: 100%;
+}
+
+.row-1 {
+    width: 80%;
+    margin: auto;
+}
+
+
+ 
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.header_list {
+    height: 112px;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_list_text {
+    color: #1D2026;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.gap_first {
+    padding: 0 0px 0 56px;
+    color: #69707D;
+}
+
+.gap {
+    padding: 0 32px 0 32px;
+    color: #69707D;
+}
+
+.header_list_shopping {
+    padding: 0 46px 0 310px;
+}
+
+.header_list_profile:hover{
+    /* transition: .5s; */
+    border: 1px solid #FF7E1B;
+    /* border-radius: 50%; */
+}
+
+.header_list_profile:hover {
+    border-radius: 50%;
+    border: 2px solid #FF7E1B;
+}
+
+/* content */
+
+.content_imgages {
+    padding: 90px 125px 132px 213px;
+}
+
+.main_image {
+    width: 445px;
+    height: 445px;
+    border-radius: 15px;
+    padding: 0 0 32px 0;
+}
+
+.images_menu {
+    display: flex;
+}
+
+.menu_items {
+    width: 88px;
+    height: 88px;
+    margin-right: 31px;
+}
+
+.content_container {
+    display: flex;
+    align-items: center;
+}
+
+/* content texts */
+.content_texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.company_name {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FF7E1B;
+    text-transform: uppercase;
+    padding: 0 0 27px 0;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 2px;
+}
+
+.content_title {
+    width: 445px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #1D2026;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 48px;
+    padding: 0 0 32px 0;
+}
+
+.content_paragraph {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    width: 445px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #69707D;
+    padding: 0 0 28px 0;
+}
+
+.content_prince_items {
+    display: flex;
+    align-items: center;
+    padding: 0 0;
+}
+
+.content_prince {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    padding: 0 16px 10px 0;
+}
+
+.content_off {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF7E1B;
+    padding: 7px 8px 4px 8px;
+    background: #FFEEE2;
+    border-radius: 6px;
+}
+
+.content_ads {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #B6BCC8;
+    text-decoration-line: line-through;
+}
+
+.content_count {
+    display: flex;
+    align-items: center;
+    background-color: #F6F8FD;
+    border-radius: 10px;
+    width: 26%;
+}
+
+.content_count button {
+    cursor: pointer;
+    padding: 20px 40px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    border: none;
+    background: #F6F8FD;
+    border-radius: 10px;
+}
+
+.buy-item {
+    display: flex;
+    align-items: center;
+}
+
+.content_card {
+    cursor: pointer;
+    display: flex;
+    width: 50%;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 80px;
+    background: #FF7E1B;
+    box-shadow: 0px 20px 50px -20px #FF7E1B;
+    border-radius: 10px;
+}
+
+
+.content_card h3 , 
+.content_card i{
+    color: white;
+}
+
+.content_card i{
+    margin-right: 10px;
+}
+
+.sotuv{
+    display: flex;
+    align-items: center;
+}
+
+.sotuv i {
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+span{
+    display: none;
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin: 10px 0;
+    
+}
+
+.menu-activate{
+    display: flex;
+    align-items: center;
+}
+
+.menu-activate h1{
+    margin-left: 20px;
+}
+
+ 
+.active{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+img{
+    cursor: pointer;
+}
